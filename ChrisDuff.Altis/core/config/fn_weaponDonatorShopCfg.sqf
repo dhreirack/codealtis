@@ -15,7 +15,7 @@ switch(_shop) do
                   {
                         ["Equipement Gendarmerie",
                         ["arifle_mas_bizon",nil,60000],
-                        ["64Rnd_mas_9x18_mag",nil,5000],
+                        ["64Rnd_mas_9x18_mag",nil,5000]
                         ]
                         ];
                   };
@@ -33,7 +33,7 @@ switch(_shop) do
                   {
                         ["Armurerie Dontaor",
                         ["R3F_MP5SD","MP5",0],
-                        ["R3F_30Rnd_9x19_MP5","Chargeur MP5",0],
+                        ["R3F_30Rnd_9x19_MP5","Chargeur MP5",0]
                         ]
                         ];
                   };
@@ -53,7 +53,7 @@ switch(_shop) do
         ["Equipements Médecin",
           [
             ["civ_tenue_Samu",nil,0],
-            ["ItemGPS",nil,100],
+            ["ItemGPS",nil,100]
           ]
         ];
       };
