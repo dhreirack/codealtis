@@ -11,7 +11,7 @@ switch(_shop) do
             switch(true) do
             {
                   case (playerSide != west): {"Vous n'êtes pas Gendarme"};
-                  default
+                  case (__GETC__(life_donatorlevel) == 1):
                   {
                         ["Equipement Gendarmerie",
                         ["arifle_mas_bizon",nil,60000],
@@ -28,6 +28,7 @@ switch(_shop) do
             {
                   case (playerside !=west):{"Vous n'êtes pas Policier !"};
                   case (__GETC__(life_coplevel) == 0): {"Vous n'êtes pas un officier inscrit sur la liste!"};
+                  case (__GETC__(life_coplevel) >= 0):
                   case (__GETC__(life_donatorlevel) == 1):
                   {
                         ["Armurerie Dontaor",
