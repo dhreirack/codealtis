@@ -11,6 +11,7 @@ switch(_shop) do
             switch(true) do
             {
                   case (playerSide != west): {"Vous n'êtes pas Gendarme"};
+                  case (__GETC__(life_donator) == 0): {"Vous n'êtes pas Donateur!"};
                   case (__GETC__(life_donatorlevel) == 1):
                   {
                         ["Equipement Gendarmerie",
@@ -29,6 +30,7 @@ switch(_shop) do
                   case (playerside !=west):{"Vous n'êtes pas Policier !"};
                   case (__GETC__(life_coplevel) == 0): {"Vous n'êtes pas un officier inscrit sur la liste!"};
                   case (__GETC__(life_coplevel) >= 0):
+                  case (__GETC__(life_donator) == 0): {"Vous n'êtes pas Donateur!"};
                   case (__GETC__(life_donatorlevel) == 1):
                   {
                         ["Armurerie Dontaor",
@@ -48,6 +50,7 @@ switch(_shop) do
     switch (true) do 
     {
       case (playerSide != independent): {"Vous n'êtes pas Médecin"};
+      case (__GETC__(life_donator) == 0): {"Vous n'êtes pas Donateur!"};
       case (__GETC__(life_donatorlevel) == 1):
       {
         ["Equipements Médecin",
@@ -66,6 +69,7 @@ switch(_shop) do
     {
       case (playerSide != civilian): {"Vous n'êtes pas civil !"};
       case (!license_civ_rebel): {"Vous n'avez pas l'entrainement rebelle"};
+      case (__GETC__(life_donator) == 0): {"Vous n'êtes pas Donateur!"};
       case (__GETC__(life_donatorlevel) == 1):
       {
         ["Mohammed's Jihadi Shop",
@@ -106,6 +110,7 @@ switch(_shop) do
     switch(true) do
     {
       case (playerSide != civilian): {"Vous n'êtes pas civil !"};
+      case (__GETC__(life_donator) == 0): {"Vous n'êtes pas Donateur!"};
       case (__GETC__(life_donatorlevel) == 1):
       {
         ["Armurerie",
@@ -132,6 +137,7 @@ switch(_shop) do
     switch(true) do
     {
       case (playerSide != civilian): {"Vous n'êtes pas civil !"};
+      case (__GETC__(life_donator) == 0): {"Vous n'êtes pas Donateur!"};
       case (__GETC__(life_donatorlevel) == 1):
       {
         ["Hideout Armament",
