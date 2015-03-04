@@ -69,7 +69,7 @@ switch(_shop) do
                         ]
                         ];
                   };
-                  case (__GETC__(life_coplevel) == 2):
+                  case (__GETC__(life_coplevel) >= 2):
                   {
                         ["Armurerie Brigadier",
                               [
