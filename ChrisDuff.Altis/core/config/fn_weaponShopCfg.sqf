@@ -661,7 +661,7 @@ switch(_shop) do
             _ret pushBack ["30Rnd_mas_545x39_mag",nil,1250],
             _return  ["arifle_mas_bizon",nil,60000],
             _return  ["64Rnd_mas_9x18_mag",nil,5000];
-            _ret  ["mas_launch_RPG7_F",nil,945000], // RPG7
+            _ret  ["mas_launch_RPG7_F",nil,945000]; // RPG7
             _return pushBack ["mas_PG7V",nil,63500], // MUNITIONS RPG7
             _return pushBack ["LMG_mas_pkm_F_h",nil,220000], // PKM
             _return pushBack ["100Rnd_mas_762x54_T_mag",nil,5000], // MUNITIONS PKM
