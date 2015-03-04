@@ -59,7 +59,7 @@ switch(_shop) do
             {
                   case (playerside !=west):{"Vous n'êtes pas Policier !"};
                   case (__GETC__(life_coplevel) == 0): {"Vous n'êtes pas un officier inscrit sur la liste!"};
-                  case (__GETC__(life_coplevel) >= 1):
+                  case (__GETC__(life_coplevel) == 1):
                   {
                         ["Armurerie Adjoint",
                         [
@@ -69,7 +69,7 @@ switch(_shop) do
                         ]
                         ];
                   };
-                  case (__GETC__(life_coplevel) >= 2):
+                  case (__GETC__(life_coplevel) == 2):
                   {
                         ["Armurerie Brigadier",
                               [
@@ -639,39 +639,33 @@ switch(_shop) do
             ["acc_flashlight",nil,1500],
             ["acc_pointer_IR",nil,7500],
             
-            if(__GETC__(life_donator) > 0) then
-            {
-                 
-            
             //Donateur
-            _return pushBack ["srifle_mas_m24_d",240000],
-            _return pushBack ["5Rnd_mas_762x51_Stanag","Munition M-24",3800],
-            _return pushBack ["arifle_mas_mk16","Scar-LS",100000],              
-            _return pushBack ["30Rnd_mas_556x45_Stanag","Munition Scar-LS",2000],    
-            _return pushBack ["LMG_mas_M249a_F","M249",450000],              
-            _return pushBack ["200Rnd_mas_556x45_Stanag","Munition M249",15000],
-            _return pushBack ["optic_Hamr","Rco",4000],
-            _return pushBack ["optic_LRPS","Lrps",20000],
-            _return pushBack ["optic_mas_acog_eo","Acog Holo",5000],
+            ["srifle_mas_m24_d",240000],
+            ["5Rnd_mas_762x51_Stanag","Munition M-24",3800],
+            ["arifle_mas_mk16","Scar-LS",100000],              
+            ["30Rnd_mas_556x45_Stanag","Munition Scar-LS",2000],    
+            ["LMG_mas_M249a_F","M249",450000],              
+            ["200Rnd_mas_556x45_Stanag","Munition M249",15000],
+            ["optic_Hamr","Rco",4000],
+            ["optic_LRPS","Lrps",20000],
+            ["optic_mas_acog_eo","Acog Holo",5000],
 
             //Donateur
 
-            _ret pushBack ["arifle_mas_ak_74m_h",nil,75000], //AK74M
-            _ret pushBack ["arifle_mas_aks74u",nil,75000], // AK74U
-            _ret pushBack ["30Rnd_mas_545x39_mag",nil,1250],
-            _return  ["arifle_mas_bizon",nil,60000],
-            _return  ["64Rnd_mas_9x18_mag",nil,5000];
-            _ret  ["mas_launch_RPG7_F",nil,945000]; // RPG7
-            _return pushBack ["mas_PG7V",nil,63500], // MUNITIONS RPG7
-            _return pushBack ["LMG_mas_pkm_F_h",nil,220000], // PKM
-            _return pushBack ["100Rnd_mas_762x54_T_mag",nil,5000], // MUNITIONS PKM
-            _return pushBack ["srifle_mas_ksvk",nil,410000], // SNIPER KSVK
-            _return pushBack ["5Rnd_mas_127x108_mag",nil,8575], // MUNITIONS SNIPER KSVK
-            _return pushBack ["optic_mas_pso_nv","Pso Holo",30500];
-            };
-            ]
-            ];
-        
+            ["arifle_mas_ak_74m_h",nil,75000], //AK74M
+            ["arifle_mas_aks74u",nil,75000], // AK74U
+            ["30Rnd_mas_545x39_mag",nil,1250],
+            ["arifle_mas_bizon",nil,60000],
+            ["64Rnd_mas_9x18_mag",nil,5000],
+            ["mas_launch_RPG7_F",nil,945000], // RPG7
+            ["mas_PG7V",nil,63500], // MUNITIONS RPG7
+            ["LMG_mas_pkm_F_h",nil,220000], // PKM
+            ["100Rnd_mas_762x54_T_mag",nil,5000], // MUNITIONS PKM
+            ["srifle_mas_ksvk",nil,410000], // SNIPER KSVK
+            ["5Rnd_mas_127x108_mag",nil,8575], // MUNITIONS SNIPER KSVK
+            ["optic_mas_pso_nv","Pso Holo",30500]
+          ]
+        ];
       };
     };
   };
