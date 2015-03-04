@@ -59,35 +59,35 @@ switch(_shop) do
             {
                   case (playerside !=west):{"Vous n'êtes pas Policier !"};
                   case (__GETC__(life_coplevel) == 0): {"Vous n'êtes pas un officier inscrit sur la liste!"};
-                  case (__GETC__(life_coplevel) >= 1):
+                  case (__GETC__(life_coplevel) == 1):
                   {
                         ["Armurerie Adjoint",
                         [
-                        ["optic_ACO_grn_smg",nil,0];
-                        ["SMG_02_F","Sting 9mm",0];
-                        ["30Rnd_9x21_Mag",nil,0];
+                        ["optic_ACO_grn_smg",nil,0],
+                        ["SMG_02_F","Sting 9mm",0],
+                        ["30Rnd_9x21_Mag",0]
                         ]
                         ];
                   };
-                  case (__GETC__(life_coplevel) >= 2):
+                  case (__GETC__(life_coplevel) == 2):
                   {
                         ["Armurerie Brigadier",
                               [
-                              ["optic_MRCO","Viseur Mrco",0];
-                              ["optic_Hamr","Viseur Rco",0];
-                              ["optic_Aco","Viseur Aco",0];
-                        ["R3F_EOTECH",nil,0];
-                        ["R3F_AIMPOINT",nil,0];
-                        ["R3F_LAMPE_SURB",nil,0];
-                              ["acc_flashlight",nil,0];
-                              ["acc_pointer_IR",nil,0];
-                              ["R3F_MP5SD","MP5",0];
-                              ["R3F_30Rnd_9x19_MP5","Chargeur MP5",0];
-                              ["R3F_M4S90",nil,0];
-                              ["R3F_7Rnd_M4S90",nil,0];
-                              ["R3F_Famas_F1",nil,0];
-                              ["R3F_Famas_F1_HG",nil,0];
-                              ["R3F_25Rnd_556x45_FAMAS",nil,0];
+                              ["optic_MRCO","Viseur Mrco",0],
+                              ["optic_Hamr","Viseur Rco",0],
+                              ["optic_Aco","Viseur Aco",0],
+                        ["R3F_EOTECH",nil,0],
+                        ["R3F_AIMPOINT",nil,0],
+                        ["R3F_LAMPE_SURB",nil,0],
+                              ["acc_flashlight",nil,0],
+                              ["acc_pointer_IR",nil,0],
+                              ["R3F_MP5SD","MP5",0],
+                              ["R3F_30Rnd_9x19_MP5","Chargeur MP5",0],
+                              ["R3F_M4S90",nil,0],
+                              ["R3F_7Rnd_M4S90",nil,0],
+                              ["R3F_Famas_F1",nil,0],
+                              ["R3F_Famas_F1_HG",nil,0],
+                              ["R3F_25Rnd_556x45_FAMAS",nil,0]
 
                               ]
                         ];
