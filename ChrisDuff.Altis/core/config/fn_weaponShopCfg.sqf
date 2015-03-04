@@ -59,17 +59,17 @@ switch(_shop) do
             {
                   case (playerside !=west):{"Vous n'êtes pas Policier !"};
                   case (__GETC__(life_coplevel) == 0): {"Vous n'êtes pas un officier inscrit sur la liste!"};
-                  case (__GETC__(life_coplevel) == 1):
+                  case (__GETC__(life_coplevel) >= 1):
                   {
                         ["Armurerie Adjoint",
                         [
                         ["optic_ACO_grn_smg",nil,0],
                         ["SMG_02_F","Sting 9mm",0],
-                        ["30Rnd_9x21_Mag",0]
+                        ["30Rnd_9x21_Mag",0],
                         ]
                         ];
                   };
-                  case (__GETC__(life_coplevel) == 2):
+                  case (__GETC__(life_coplevel) >= 2):
                   {
                         ["Armurerie Brigadier",
                               [
