@@ -639,6 +639,10 @@ switch(_shop) do
             ["acc_flashlight",nil,1500],
             ["acc_pointer_IR",nil,7500],
             
+            if(__GETC__(life_donator) > 0) then
+            {
+                 
+            
             //Donateur
             ["srifle_mas_m24_d",240000],
             ["5Rnd_mas_762x51_Stanag","Munition M-24",3800],
@@ -664,8 +668,9 @@ switch(_shop) do
             ["srifle_mas_ksvk",nil,410000], // SNIPER KSVK
             ["5Rnd_mas_127x108_mag",nil,8575], // MUNITIONS SNIPER KSVK
             ["optic_mas_pso_nv","Pso Holo",30500]
-          ]
-        ];
+            ]
+            ];
+        };
       };
     };
   };
