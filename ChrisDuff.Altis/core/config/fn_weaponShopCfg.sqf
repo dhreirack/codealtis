@@ -65,7 +65,7 @@ switch(_shop) do
                         [
                         ["optic_ACO_grn_smg",nil,0],
                         ["SMG_02_F","Sting 9mm",0],
-                        ["30Rnd_9x21_Mag",0]
+                        ["30Rnd_9x21_Mag",0],
                         ]
                         ];
                   };
