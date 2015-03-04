@@ -59,7 +59,7 @@ switch(_shop) do
             {
                   case (playerside !=west):{"Vous n'êtes pas Policier !"};
                   case (__GETC__(life_coplevel) == 0): {"Vous n'êtes pas un officier inscrit sur la liste!"};
-                  case (__GETC__(life_coplevel) == 1):
+                  case (__GETC__(life_coplevel) >= 1):
                   {
                         ["Armurerie Adjoint",
                         [
