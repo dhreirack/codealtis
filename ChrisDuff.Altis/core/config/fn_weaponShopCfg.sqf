@@ -735,27 +735,40 @@ switch(_shop) do
       ]
     ];
   };
-   case "donator":
-    {
-        switch(true) do
-        {
-            case (__GETC__(life_donator) == 0): {"Vous n'êtes pas Donateur!"};
-            case (__GETC__(life_donator) == 1):
-            {
-            ["Hideout Armament",
-            [
-                  ["hgun_Rook40_F",nil,1500],
-                  ["hgun_Pistol_heavy_02_F",nil,2500],
-                  ["hgun_ACPC2_F",nil,4500],
-                  ["hgun_PDW2000_F",nil,9500],
-                  ["optic_ACO_grn_smg",nil,950],
-                  ["V_Rangemaster_belt",nil,1900],
-                  ["16Rnd_9x21_Mag",nil,25],
-                  ["9Rnd_45ACP_Mag",nil,45],
-                  ["6Rnd_45ACP_Cylinder",nil,50],
-                  ["30Rnd_9x21_Mag",nil,75]
-          ]
-        ];
+case "donator":
+{
+            ["Donator Shop",
+                  [
+                        ["hgun_Rook40_F",nil,8000],
+                        ["hgun_PDW2000_F",nil,15000],
+                        ["SMG_01_F",nil,20000],
+                        ["arifle_Mk20C_plain_F",nil,100000],
+                        ["LMG_Mk200_F",nil,250000],
+                        ["LMG_Zafir_F",nil,400000],
+                        ["srifle_LRR_camo_F",nil,400000],
+                        ["srifle_GM6_F",nil,600000],
+                        ["srifle_GM6_camo_F",nil,600000],
+                        ["Rangefinder",nil,50000],
+                        ["optic_LRPS",nil,50000],
+                        ["optic_SOS",nil,30000],
+                        ["optic_MRCO",nil,10000],
+                        ["optic_Arco",nil,10000],
+                        ["optic_Hamr",nil,10000],
+                        ["optic_ACO_grn_smg",nil,2000],
+                        ["acc_pointer_IR",nil,10000],
+                        ["ToolKit",nil,250],
+                        ["itemgps",nil,150],
+                        ["FirstAidKit",nil,150],
+                        ["16Rnd_9x21_Mag",nil,50],
+                        ["30Rnd_9x21_Mag",nil,60],
+                        ["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,60],
+                        ["30Rnd_556x45_Stanag",nil,70],
+                        ["200Rnd_65x39_cased_Box_Tracer",nil,800],
+                        ["150Rnd_762x51_Box_Tracer",nil,800],
+                        ["7Rnd_408_Mag",nil,800],
+                        ["5Rnd_127x108_Mag",nil,800]
+                  ]
+            ];
       };
-   };
+
 };
