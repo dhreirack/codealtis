@@ -638,13 +638,7 @@ switch(_shop) do
             ["optic_SOS","Sos",38000],
             ["acc_flashlight",nil,1500],
             ["acc_pointer_IR",nil,7500],
-               ]
-        ];
-      };
-         case (!license_civ_donateurarmes): {"Vous n'avez ppas la license donateur"}; 
-         {
-        ["Mohammed's Jihadi Shop",
-          [  
+
             //Donateur
             ["srifle_mas_m24_d",240000],
             ["5Rnd_mas_762x51_Stanag","Munition M-24",3800],
