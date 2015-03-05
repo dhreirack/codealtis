@@ -177,6 +177,7 @@ class Life_Client_Core
 		class vehShopLicenses {};
 		class vehicleAnimate {};
 		class weaponShopCfg {};
+		class weaponDonatorShopCfg {};//donator line
 		class vehicleWeightCfg {};
 		class houseConfig {};
 		class itemIcon {};
@@ -189,6 +190,7 @@ class Life_Client_Core
 		class clothing_kart {};
 		class clothing_pg {};
 		class clothing_dep {};
+		class clothing_donator {};//donator line
 	};
 
 	class Player_Menu
