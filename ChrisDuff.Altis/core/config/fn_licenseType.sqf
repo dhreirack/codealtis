@@ -42,6 +42,10 @@ switch (_mode) do
 			case "home": {_var = "license_civ_home"};
 			case "presse": {_var = "license_civ_presse"};
 			case "dep": {_var = "license_civ_dep"};
+			case "donateurarmes": {_var = "license_civ_donateurarmes"};
+			case "donateurvehicules": {_var = "license_civ_donateurvehicules"};
+			case "donateurcoparmes": {_var = "license_cop_donateurcoparmes"};
+			case "donateurcopvehicules": {_var = "license_cop_donateurcopvehicules"};
 			default {_var = ""};
 		};
 	};
@@ -76,6 +80,10 @@ switch (_mode) do
 			case "license_civ_home": {_var = "home"};
 			case "license_civ_presse": {_var = "presse"};
 			case "license_civ_dep": {_var = "dep"};
+			case "license_civ_donateurarmes": {_var = "donateurarmes"};
+			case "license_civ_donateurvehicules": {_var = "donateurvehicules"};
+			case "license_cop_donateurcoparmes": {_var = "donateurcoparmes"};
+			case "license_cop_donateurcopvehicules": {_var = "donateurcopvehicules"};
 			default {_var = ""};
 		};
 	};
