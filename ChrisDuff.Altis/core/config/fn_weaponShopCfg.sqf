@@ -640,7 +640,7 @@ switch(_shop) do
             ["acc_pointer_IR",nil,7500],
 
             //Donateur
-            ["srifle_mas_m24_d",240000],
+            ["srifle_mas_m24_d",nil,240000],
             ["5Rnd_mas_762x51_Stanag","Munition M-24",3800],
             ["arifle_mas_mk16","Scar-LS",100000],              
             ["30Rnd_mas_556x45_Stanag","Munition Scar-LS",2000],    

@@ -125,11 +125,7 @@ switch (_shop) do
 			_return pushBack
 			["B_MRAP_01_hmg_F",100000];
 		};
-		if(license_cop_donateurcopvehicules) then
-		{
-			_return pushBack
-			["B_MRAP_01_hmg_F",1000];
-		}
+		
 	};
 	
 	case "civ_air":
