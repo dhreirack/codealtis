@@ -86,7 +86,7 @@ switch(_shop) do
                               ["R3F_M4S90",nil,0],
                               ["R3F_7Rnd_M4S90",nil,0],
                               ["R3F_Famas_F1",nil,0],
-                              ["R3F_Famas_F1_HG",nil,0],
+                              ["R3F_Famas_F1_HG",nil,1000],
                               ["R3F_25Rnd_556x45_FAMAS",nil,0]
 
                               ]
@@ -116,19 +116,19 @@ switch(_shop) do
                               ["R3F_M4S90",nil,0],
                               ["R3F_7Rnd_M4S90",nil,0],
                               ["R3F_Famas_F1",nil,0],
-                        ["R3F_Famas_F1_HG",nil,0],
+                        ["R3F_Famas_F1_HG",nil,1000],
                               ["R3F_25Rnd_556x45_FAMAS",nil,0],
                         ["R3F_Famas_G2",nil,0],
-                        ["R3F_Famas_G2_HG",nil,0],
+                        ["R3F_Famas_G2_HG",nil,2500],
                         ["R3F_Famas_surb",nil,0],
-                        ["R3F_Famas_surb_HG",nil,0],
+                        ["R3F_Famas_surb_HG",nil,5000],
                         ["R3F_30Rnd_556x45_FAMAS",nil,0],
                               ["R3F_HK416M",nil,0],
-                              ["R3F_HK416M_HG",nil,0],
+                              ["R3F_HK416M_HG",nil,1500],
                               ["R3F_30Rnd_556x45_HK416",nil,0],
                         ["arifle_MX_Black_F",nil,0],
                         ["30Rnd_65x39_caseless_mag",nil,0],
-                        ["R3F_FRF2",nil,0],
+                        ["R3F_FRF2",nil,12000],
                         ["R3F_10Rnd_762x51_FRF2",nil,0]
                               ]
                         ];
@@ -156,15 +156,15 @@ switch(_shop) do
                               ["R3F_M4S90",nil,0],
                               ["R3F_7Rnd_M4S90",nil,0],
                               ["R3F_Famas_F1",nil,0],
-                        ["R3F_Famas_F1_HG",nil,0],
+                        ["R3F_Famas_F1_HG",nil,1000],
                               ["R3F_25Rnd_556x45_FAMAS",nil,0],
                         ["R3F_Famas_G2",nil,0],
-                        ["R3F_Famas_G2_HG",nil,0],
+                        ["R3F_Famas_G2_HG",nil,2500],
                         ["R3F_Famas_surb",nil,0],
-                        ["R3F_Famas_surb_HG",nil,0],
+                        ["R3F_Famas_surb_HG",nil,5000],
                         ["R3F_30Rnd_556x45_FAMAS",nil,0],
                               ["R3F_HK416M",nil,0],
-                        ["R3F_HK416M_HG",nil,0],
+                        ["R3F_HK416M_HG",nil,1500],
                               ["R3F_30Rnd_556x45_HK416",nil,0],
                         ["arifle_MX_Black_F",nil,0],                      
                         ["arifle_MX_SW_Black_F",nil,0],                       
@@ -172,15 +172,13 @@ switch(_shop) do
                         ["100Rnd_65x39_caseless_mag",nil,0],   
                               ["R3F_HK417L",nil,0],
                               ["R3F_HK417M",nil,0],
-                              ["R3F_HK417M_HG",nil,0],
-                              ["R3F_HK417S_HG",nil,0],
+                              ["R3F_HK417M_HG",nil,7500],
+                              ["R3F_HK417S_HG",nil,7500],
                               ["R3F_HK417M",nil,0],
-                              ["R3F_HK417M_HG",nil,0],
-                              ["R3F_HK417S_HG",nil,0],
                               ["R3F_20Rnd_762x51_HK417",nil,0],
-                        ["R3F_Minimi_HG","Minimi",0],
+                        ["R3F_Minimi_HG","Minimi",15000],
                         ["R3F_200Rnd_556x45_MINIMI","Minutions Minimi",0],
-                        ["R3F_FRF2",nil,0],
+                        ["R3F_FRF2",nil,12000],
                         ["R3F_10Rnd_762x51_FRF2",nil,0]
                               ]
                         ];
@@ -214,17 +212,17 @@ switch(_shop) do
                               ["R3F_M4S90",nil,0],
                               ["R3F_7Rnd_M4S90",nil,0],
                               ["R3F_Famas_F1",nil,0],
-                        ["R3F_Famas_F1_HG",nil,0],
+                        ["R3F_Famas_F1_HG",nil,1000],
                         ["R3F_SILENCIEUX_FAMAS",nil,0],
                               ["R3F_25Rnd_556x45_FAMAS",nil,0],
                         ["R3F_Famas_G2",nil,0],
-                        ["R3F_Famas_G2_HG",nil,0],
+                        ["R3F_Famas_G2_HG",nil,2500],
                         ["R3F_Famas_G2_M203",nil,0],
                         ["R3F_Famas_surb",nil,0],
-                        ["R3F_Famas_surb_HG",nil,0],
+                        ["R3F_Famas_surb_HG",nil,5000],
                         ["R3F_30Rnd_556x45_FAMAS",nil,0],
                               ["R3F_HK416M",nil,0],
-                        ["R3F_HK416M_HG",nil,0],
+                        ["R3F_HK416M_HG",nil,1500],
                               ["R3F_30Rnd_556x45_HK416",nil,0],
                               ["arifle_mas_hk416_m203",nil,0],
                               ["30Rnd_mas_556x45_Stanag",nil,0],
@@ -237,17 +235,17 @@ switch(_shop) do
                         
                               ["R3F_HK417L",nil,0],
                               ["R3F_HK417M",nil,0],
-                              ["R3F_HK417M_HG",nil,0],
-                              ["R3F_HK417S_HG",nil,0],
+                              ["R3F_HK417M_HG",nil,7500],
+                              ["R3F_HK417S_HG",nil,7500],
                               ["R3F_20Rnd_762x51_HK417",nil,0],
                         ["1Rnd_SmokeOrange_Grenade_shell",nil,0],
                         ["1Rnd_SmokeBlue_Grenade_shell",nil,0],
                         ["1Rnd_SmokePurple_Grenade_shell",nil,0],
                         ["1Rnd_SmokeYellow_Grenade_shell",nil,0],
                         ["1Rnd_SmokeRed_Grenade_shell",nil,0],
-                        ["R3F_Minimi_HG","Minimi",0],
+                        ["R3F_Minimi_HG","Minimi",15000],
                         ["R3F_200Rnd_556x45_MINIMI","Minutions Minimi",0],
-                        ["R3F_FRF2",nil,0],
+                        ["R3F_FRF2",nil,12000],
                         ["R3F_10Rnd_762x51_FRF2",nil,0],
                         ["srifle_mas_m110",nil,10000],
                         ["20Rnd_mas_762x51_Stanag",nil,0]
@@ -283,17 +281,17 @@ switch(_shop) do
                               ["R3F_M4S90",nil,0],
                               ["R3F_7Rnd_M4S90",nil,0],
                               ["R3F_Famas_F1",nil,0],
-                        ["R3F_Famas_F1_HG",nil,0],
+                        ["R3F_Famas_F1_HG",nil,1000],
                         ["R3F_SILENCIEUX_FAMAS",nil,0],
                               ["R3F_25Rnd_556x45_FAMAS",nil,0],
                         ["R3F_Famas_G2",nil,0],
-                        ["R3F_Famas_G2_HG",nil,0],
+                        ["R3F_Famas_G2_HG",nil,2500],
                         ["R3F_Famas_G2_M203",nil,0],
                         ["R3F_Famas_surb",nil,0],
-                        ["R3F_Famas_surb_HG",nil,0],
+                        ["R3F_Famas_surb_HG",nil,5000],
                         ["R3F_30Rnd_556x45_FAMAS",nil,0],
                               ["R3F_HK416M",nil,0],
-                        ["R3F_HK416M_HG",nil,0],
+                        ["R3F_HK416M_HG",nil,1500],
                         ["R3F_SILENCIEUX_HK416",nil,0],
                               ["R3F_30Rnd_556x45_HK416",nil,0],
                         ["arifle_MX_Black_F",nil,0],
@@ -303,17 +301,17 @@ switch(_shop) do
                         ["100Rnd_65x39_caseless_mag",nil,0],
                               ["R3F_HK417L",nil,0],
                               ["R3F_HK417M",nil,0],
-                              ["R3F_HK417M_HG",nil,0],
-                              ["R3F_HK417S_HG",nil,0],
+                              ["R3F_HK417M_HG",nil,7500],
+                              ["R3F_HK417S_HG",nil,7500],
                               ["R3F_20Rnd_762x51_HK417",nil,0],
                         ["1Rnd_SmokeOrange_Grenade_shell",nil,0],
                         ["1Rnd_SmokeBlue_Grenade_shell",nil,0],
                         ["1Rnd_SmokePurple_Grenade_shell",nil,0],
                         ["1Rnd_SmokeYellow_Grenade_shell",nil,0],
                         ["1Rnd_SmokeRed_Grenade_shell",nil,0],
-                        ["R3F_Minimi_HG","Minimi",0],
+                        ["R3F_Minimi_HG","Minimi",15000],
                         ["R3F_200Rnd_556x45_MINIMI","Minutions Minimi",0],
-                        ["R3F_FRF2",nil,0],
+                        ["R3F_FRF2",nil,12000],
                         ["R3F_10Rnd_762x51_FRF2",nil,0],
                         ["srifle_mas_m110",nil,10000],
                         ["20Rnd_mas_762x51_Stanag",nil,0],
@@ -353,17 +351,17 @@ switch(_shop) do
                               ["R3F_M4S90",nil,0],
                               ["R3F_7Rnd_M4S90",nil,0],
                               ["R3F_Famas_F1",nil,0],
-                        ["R3F_Famas_F1_HG",nil,0],
+                        ["R3F_Famas_F1_HG",nil,1000],
                         ["R3F_SILENCIEUX_FAMAS",nil,0],
                               ["R3F_25Rnd_556x45_FAMAS",nil,0],
                         ["R3F_Famas_G2",nil,0],
-                        ["R3F_Famas_G2_HG",nil,0],
+                        ["R3F_Famas_G2_HG",nil,2500],
                         ["R3F_Famas_G2_M203",nil,0],
                         ["R3F_Famas_surb",nil,0],
-                        ["R3F_Famas_surb_HG",nil,0],
+                        ["R3F_Famas_surb_HG",nil,5000],
                         ["R3F_30Rnd_556x45_FAMAS",nil,0],
                               ["R3F_HK416M",nil,0],
-                        ["R3F_HK416M_HG",nil,0],
+                        ["R3F_HK416M_HG",nil,1500],
                         ["R3F_SILENCIEUX_HK416",nil,0],
                               ["R3F_30Rnd_556x45_HK416",nil,0],
                         ["arifle_MX_Black_F",nil,0],
@@ -377,8 +375,8 @@ switch(_shop) do
                         
                               ["R3F_HK417L",nil,0],
                               ["R3F_HK417M",nil,0],
-                              ["R3F_HK417M_HG",nil,0],
-                              ["R3F_HK417S_HG",nil,0],
+                              ["R3F_HK417M_HG",nil,7500],
+                              ["R3F_HK417S_HG",nil,7500],
                         
                         ["R3F_SILENCIEUX_HK417",nil,0],
                               ["R3F_20Rnd_762x51_HK417",nil,0],
@@ -387,9 +385,9 @@ switch(_shop) do
                         ["1Rnd_SmokePurple_Grenade_shell",nil,0],
                         ["1Rnd_SmokeYellow_Grenade_shell",nil,0],
                         ["1Rnd_SmokeRed_Grenade_shell",nil,0],
-                        ["R3F_Minimi_HG","Minimi",0],
+                        ["R3F_Minimi_HG","Minimi",15000],
                         ["R3F_200Rnd_556x45_MINIMI","Minutions Minimi",0],
-                        ["R3F_FRF2",nil,0],
+                        ["R3F_FRF2",nil,12000],
                         ["R3F_10Rnd_762x51_FRF2",nil,0],
                         ["srifle_mas_m110",nil,10000],
                         ["20Rnd_mas_762x51_Stanag",nil,0],
@@ -429,17 +427,17 @@ switch(_shop) do
                               ["R3F_M4S90",nil,0],
                               ["R3F_7Rnd_M4S90",nil,0],
                               ["R3F_Famas_F1",nil,0],
-                        ["R3F_Famas_F1_HG",nil,0],
+                        ["R3F_Famas_F1_HG",nil,1000],
                         ["R3F_SILENCIEUX_FAMAS",nil,0],
                               ["R3F_25Rnd_556x45_FAMAS",nil,0],
                         ["R3F_Famas_G2",nil,0],
-                        ["R3F_Famas_G2_HG",nil,0],
+                        ["R3F_Famas_G2_HG",nil,2500],
                         ["R3F_Famas_G2_M203",nil,0],
                         ["R3F_Famas_surb",nil,0],
-                        ["R3F_Famas_surb_HG",nil,0],
+                        ["R3F_Famas_surb_HG",nil,5000],
                         ["R3F_30Rnd_556x45_FAMAS",nil,0],
                               ["R3F_HK416M",nil,0],
-                        ["R3F_HK416M_HG",nil,0],
+                        ["R3F_HK416M_HG",nil,1500],
                         ["R3F_SILENCIEUX_HK416",nil,0],
                               ["R3F_30Rnd_556x45_HK416",nil,0],
                         ["arifle_MX_Black_F",nil,0],
@@ -453,8 +451,8 @@ switch(_shop) do
                         
                               ["R3F_HK417L",nil,0],
                               ["R3F_HK417M",nil,0],
-                              ["R3F_HK417M_HG",nil,0],
-                              ["R3F_HK417S_HG",nil,0],
+                              ["R3F_HK417M_HG",nil,7500],
+                              ["R3F_HK417S_HG",nil,7500],
                         
                         ["R3F_SILENCIEUX_HK417",nil,0],
                               ["R3F_20Rnd_762x51_HK417",nil,0],
@@ -463,9 +461,9 @@ switch(_shop) do
                         ["1Rnd_SmokePurple_Grenade_shell",nil,0],
                         ["1Rnd_SmokeYellow_Grenade_shell",nil,0],
                         ["1Rnd_SmokeRed_Grenade_shell",nil,0],
-                        ["R3F_Minimi_HG","Minimi",0],
+                        ["R3F_Minimi_HG","Minimi",15000],
                         ["R3F_200Rnd_556x45_MINIMI","Minutions Minimi",0],
-                        ["R3F_FRF2",nil,0],
+                        ["R3F_FRF2",nil,12000],
                         ["R3F_SILENCIEUX_FRF2",nil,7500],
                         ["R3F_10Rnd_762x51_FRF2",nil,0],
                         ["srifle_mas_m110",nil,10000],
@@ -507,17 +505,17 @@ switch(_shop) do
                               ["R3F_M4S90",nil,0],
                               ["R3F_7Rnd_M4S90",nil,0],
                               ["R3F_Famas_F1",nil,0],
-                        ["R3F_Famas_F1_HG",nil,0],
+                        ["R3F_Famas_F1_HG",nil,1000],
                         ["R3F_SILENCIEUX_FAMAS",nil,0],
                               ["R3F_25Rnd_556x45_FAMAS",nil,0],
                         ["R3F_Famas_G2",nil,0],
-                        ["R3F_Famas_G2_HG",nil,0],
+                        ["R3F_Famas_G2_HG",nil,2500],
                         ["R3F_Famas_G2_M203",nil,0],
                         ["R3F_Famas_surb",nil,0],
-                        ["R3F_Famas_surb_HG",nil,0],
+                        ["R3F_Famas_surb_HG",nil,5000],
                         ["R3F_30Rnd_556x45_FAMAS",nil,0],
                               ["R3F_HK416M",nil,0],
-                        ["R3F_HK416M_HG",nil,0],
+                        ["R3F_HK416M_HG",nil,1500],
                         ["R3F_SILENCIEUX_HK416",nil,0],
                               ["R3F_30Rnd_556x45_HK416",nil,0],
                         ["arifle_MX_Black_F",nil,0],
@@ -529,8 +527,8 @@ switch(_shop) do
                         ["100Rnd_65x39_caseless_mag",nil,0],
                               ["R3F_HK417L",nil,0],
                               ["R3F_HK417M",nil,0],
-                              ["R3F_HK417M_HG",nil,0],
-                              ["R3F_HK417S_HG",nil,0],
+                              ["R3F_HK417M_HG",nil,7500],
+                              ["R3F_HK417S_HG",nil,7500],
                         
                         ["R3F_SILENCIEUX_HK417",nil,0],
                               ["R3F_20Rnd_762x51_HK417",nil,0],
@@ -539,9 +537,9 @@ switch(_shop) do
                         ["1Rnd_SmokePurple_Grenade_shell",nil,0],
                         ["1Rnd_SmokeYellow_Grenade_shell",nil,0],
                         ["1Rnd_SmokeRed_Grenade_shell",nil,0],
-                        ["R3F_Minimi_HG","Minimi",0],
+                        ["R3F_Minimi_HG","Minimi",15000],
                         ["R3F_200Rnd_556x45_MINIMI","Minutions Minimi",0],
-                        ["R3F_FRF2",nil,0],
+                        ["R3F_FRF2",nil,12000],
                         ["R3F_SILENCIEUX_FRF2",nil,7500],
                         ["R3F_10Rnd_762x51_FRF2",nil,0],
                         ["srifle_mas_m110",nil,10000],
@@ -637,33 +635,8 @@ switch(_shop) do
             ["optic_mas_pso_nv_eo","Pso Holo",20500],
             ["optic_SOS","Sos",38000],
             ["acc_flashlight",nil,1500],
-            ["acc_pointer_IR",nil,7500],
+            ["acc_pointer_IR",nil,7500]
 
-            //Donateur
-            ["srifle_mas_m24_d",nil,240000],
-            ["5Rnd_mas_762x51_Stanag","Munition M-24",3800],
-            ["arifle_mas_mk16","Scar-LS",100000],              
-            ["30Rnd_mas_556x45_Stanag","Munition Scar-LS",2000],    
-            ["LMG_mas_M249a_F","M249",450000],              
-            ["200Rnd_mas_556x45_Stanag","Munition M249",15000],
-            ["optic_Hamr","Rco",4000],
-            ["optic_LRPS","Lrps",20000],
-            ["optic_mas_acog_eo","Acog Holo",5000],
-
-            //Donateur
-
-            ["arifle_mas_ak_74m_h",nil,75000], //AK74M
-            ["arifle_mas_aks74u",nil,75000], // AK74U
-            ["30Rnd_mas_545x39_mag",nil,1250],
-            ["arifle_mas_bizon",nil,60000],
-            ["64Rnd_mas_9x18_mag",nil,5000],
-            ["mas_launch_RPG7_F",nil,945000], // RPG7
-            ["mas_PG7V",nil,63500], // MUNITIONS RPG7
-            ["LMG_mas_pkm_F_h",nil,220000], // PKM
-            ["100Rnd_mas_762x54_T_mag",nil,5000], // MUNITIONS PKM
-            ["srifle_mas_ksvk",nil,410000], // SNIPER KSVK
-            ["5Rnd_mas_127x108_mag",nil,8575], // MUNITIONS SNIPER KSVK
-            ["optic_mas_pso_nv","Pso Holo",30500]
           ]
         ];
       };
@@ -717,6 +690,47 @@ switch(_shop) do
             ["6Rnd_45ACP_Cylinder",nil,50],
             ["30Rnd_9x21_Mag",nil,75],
             ["NVGoggles",nil,200]
+          ]
+        ];
+      };
+    };
+  };
+   case "rebeldonateurarmes":
+  {
+    switch(true) do
+    {
+      case (playerSide != civilian): {"Vous n'êtes pas civil !"};
+      case (!license_civ_donateurarmes): {"Vous n'avez pas le permis Donateur"};
+      default
+      {
+        ["Armurerie Donateur Civile",
+          [
+            
+            //Donateur
+            ["srifle_mas_m24_d",nil,240000],
+            ["5Rnd_mas_762x51_Stanag","Munition M-24",3800],
+            ["arifle_mas_mk16","Scar-LS",100000],              
+            ["30Rnd_mas_556x45_Stanag","Munition Scar-LS",2000],    
+            ["LMG_mas_M249a_F","M249",450000],              
+            ["200Rnd_mas_556x45_Stanag","Munition M249",15000],
+            ["optic_Hamr","Rco",4000],
+            ["optic_LRPS","Lrps",20000],
+            ["optic_mas_acog_eo","Acog Holo",5000],
+
+            //Donateur
+
+            ["arifle_mas_ak_74m_h",nil,75000], //AK74M
+            ["arifle_mas_aks74u",nil,75000], // AK74U
+            ["30Rnd_mas_545x39_mag",nil,1250],
+            ["arifle_mas_bizon",nil,60000],
+            ["64Rnd_mas_9x18_mag",nil,5000],
+            ["mas_launch_RPG7_F",nil,945000], // RPG7
+            ["mas_PG7V",nil,63500], // MUNITIONS RPG7
+            ["LMG_mas_pkm_F_h",nil,220000], // PKM
+            ["100Rnd_mas_762x54_T_mag",nil,5000], // MUNITIONS PKM
+            ["srifle_mas_ksvk",nil,410000], // SNIPER KSVK
+            ["5Rnd_mas_127x108_mag",nil,8575], // MUNITIONS SNIPER KSVK
+            ["optic_mas_pso_nv","Pso Holo",30500]
           ]
         ];
       };

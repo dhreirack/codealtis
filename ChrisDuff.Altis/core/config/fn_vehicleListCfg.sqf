@@ -83,7 +83,7 @@ switch (_shop) do
 			["B_Heli_Light_01_F",325000]
 		];
 
-		if(__GETC__(life_donator) > 0) then
+		if(license_civ_donateurvehicules) then
 		{
 			_return pushBack ["O_MRAP_02_F",200000];
 			_return pushBack ["O_MRAP_02_hmg_F",1200000];
@@ -147,6 +147,11 @@ switch (_shop) do
 		{
 			_return pushBack
 			["B_Heli_Light_01_F",75000];
+		};
+		if(__GETC__(life_coplevel) >= 4) then
+		{
+			_return pushBack
+			["O_Heli_Light_02_v2_F",135000];
 		};
 		if(__GETC__(life_coplevel) >= 4) then
 		{
