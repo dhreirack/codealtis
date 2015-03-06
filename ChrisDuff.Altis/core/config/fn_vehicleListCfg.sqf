@@ -135,7 +135,7 @@ switch (_shop) do
 			["B_Heli_Light_01_F",253000],
 			["O_Heli_Light_02_unarmed_F",750000]
 		];
-		if(__GETC__(life_donator) > 0) then
+		if(license_civ_donateurvehicules) then
 		{
 			_return pushBack ["I_Heli_Transport_02_F",1200000];
 		};
