@@ -48,7 +48,7 @@ switch (_shop) do
 		];
 
 		//Véhicules Donateur
-		if(__GETC__(life_donator) > 0) then
+		if(license_civ_donateurvehicules) then
 		{
 			_return pushBack ["C_Hatchback_01_sport_F",20000]; //Hayon Sport
 			_return pushBack ["C_Van_01_fuel_F",45000]; //Camionnette Essence
@@ -66,7 +66,7 @@ switch (_shop) do
 			["O_Truck_03_transport_F",200000],
 			["O_Truck_03_covered_F",250000]
 		];
-		if(__GETC__(life_donator) > 0) then
+		if(license_civ_donateurvehicules) then
 		{
 			_return pushBack ["O_Truck_03_device_F",450000];
 			_return pushBack ["B_Truck_01_box_F",350000];
