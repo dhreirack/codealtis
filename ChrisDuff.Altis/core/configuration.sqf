@@ -394,7 +394,7 @@ life_assur_prices =
 	["B_Heli_Light_01_F",55000], 
 	["B_Heli_Attack_01_F",55000],
 	["O_Heli_Light_02_unarmed_F",75000],
-	["I_Heli_Transport_02_F",400000], 
+	["I_Heli_Transport_02_F",300000], 
 	["I_Heli_light_03_unarmed_F",75000],
 	["B_Heli_Transport_01_F",75000], 
 	["C_Rubberboat",10000],
