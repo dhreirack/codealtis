@@ -742,20 +742,25 @@ switch(_shop) do
     {
       case (playerSide != west): {"Vous n'êtes pas Gendarme !"};
       case (!license_cop_donateurcoparmes): {"Vous n'avez pas le permis Donateur de la Gendarmerie"};
-      default
-      {
-        ["Armurerie Donateur Gendarmerie",
-          [
-            ["hgun_PDW2000_F",nil,1000],
-            ["optic_ACO_grn_smg",nil,500],
-            ["V_Rangemaster_belt",nil,900],
-            ["16Rnd_9x21_Mag",nil,25],
-            ["9Rnd_45ACP_Mag",nil,45],
-            ["6Rnd_45ACP_Cylinder",nil,50],
-            ["30Rnd_9x21_Mag",nil,75],
-            ["NVGoggles",nil,200]
-          ]
-        ];
+      case (__GETC__(life_coplevel) == 1):
+        {
+            ["Armurerie Adjoint",
+            [
+            ["optic_ACO_grn_smg",nil,0],
+            ["SMG_02_F","Sting 9mm",0],
+            ["30Rnd_9x21_Mag",0]
+            ]
+            ];
+      };
+      case (__GETC__(life_coplevel) == 8):
+        {
+            ["Armurerie Adjoint",
+            [
+            ["optic_ACO_grn_smg",nil,0],
+            ["SMG_02_F","Sting 9mm",0],
+            ["30Rnd_9x21_Mag",0]
+            ]
+            ];
       };
     };
   };
