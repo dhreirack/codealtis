@@ -12,6 +12,9 @@ switch (playerSide) do
 		life_actions = life_actions + [player addAction[localize "STR_pAct_RobPerson",life_fnc_robAction,"",0,false,false,"",'!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable["robbed",FALSE]) ']];
 		life_actions = life_actions + [player addAction["ALAH SNACKBAR!",life_fnc_suicideBomb,"",0,false,false,"",'vest player == "V_HarnessOGL_gry" && alive player && playerSide == civilian && !life_istazed && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
 		life_actions = life_actions + [player addAction["<t color='#ADFF2F'>Bouchon d'oreille on/off</t>",{if (soundVolume != 1) then {1 fadeSound 1;} else {1 fadeSound 0.4;};},"",-6,false,false,"",'vehicle player != player || soundVolume != 1']];
+// take them organs
+		life_actions = life_actions + [player addAction["Prélever les organes",life_fnc_takeOrgans,"",0,false,false,"",'!isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable ["missingOrgan",FALSE]) && !(player getVariable "Escorting") && !(player getVariable "hasOrgan") && !(player getVariable "transporting") && animationState cursorTarget == "Incapacitated"']];
+
 	};
                                                         
     case west:

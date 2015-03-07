@@ -62,5 +62,6 @@ switch (_item) do
 	case "storagebig": {10};
     case "mauer": {1};
     case "mauer2": {1};
+    case "kidney": {15}; //La figure 15 est le poids
 	default {1};
 };

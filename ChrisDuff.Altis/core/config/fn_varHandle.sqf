@@ -69,7 +69,8 @@ switch (_mode) do
 			case "storagebig": {"life_inv_storagebig"};
             case "mauer": {"life_inv_mauer"};
             case "mauer2": {"life_inv_mauer2"};
-            case "objects": {"life_inv_objects"}; 
+            case "objects": {"life_inv_objects"};
+            case "kidney": {"life_inv_kidney"}; 
 		};
 	};
 	
@@ -131,6 +132,7 @@ switch (_mode) do
             case "life_inv_mauer": {"mauer"};
             case "life_inv_mauer2": {"mauer2"};
             case "life_inv_objects": {"objects"};
+            case "life_inv_kidney": {"kidney"}; 
 		};
 	};
 };
