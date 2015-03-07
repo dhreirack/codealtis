@@ -29,4 +29,3 @@
 #include "compensate.hpp"
 #include "jail_time.hpp"
 #include "revoke_license.h"
-#include "veh_repaint.hpp"
