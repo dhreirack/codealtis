@@ -63,5 +63,7 @@ switch (_item) do
     case "mauer": {1};
     case "mauer2": {1};
     case "kidney": {15}; //La figure 15 est le poids
+    case "tmeat": {1};
+    case "uwsl": {5};
 	default {1};
 };

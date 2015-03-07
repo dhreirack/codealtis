@@ -362,6 +362,32 @@ switch (_code) do
 			};
 		};
 	};
+	case 20:
+	{
+		if(!_alt && !_ctrlKey) then
+		{
+			if(vehicle player != player && alive vehicle player) then
+			{
+				if((vehicle player) in life_vehicles) then
+				{
+					[vehicle player] spawn life_fnc_openInventory;
+				};
+			}
+				else
+			{
+				if((cursorTarget isKindOf "Land_Wreck_Traw_F" OR cursorTarget isKindOf "Land_Wreck_Traw2_F" OR cursorTarget isKindOf "Car" OR cursorTarget isKindOf "Air" OR cursorTarget isKindOf "Ship" OR cursorTarget isKindOf "House_F") && player distance cursorTarget < 10 && vehicle player == player && alive cursorTarget) then
+				{
+					if(cursorTarget in life_vehicles OR {!(cursorTarget getVariable ["locked",true])}) then
+					{
+						[cursorTarget] spawn life_fnc_openInventory;
+					};
+					if (cursorTarget isKindOf "Land_Wreck_Traw_F" OR cursorTarget isKindOf "Land_Wreck_Traw2_F") then {
+						[cursorTarget] spawn life_fnc_openInventory;
+					};
+				};
+			};
+		};
+	};
 	//Takwondo(Traditional Martial arts in korea)(Shift + Num 1)
 				case 79:
 				{

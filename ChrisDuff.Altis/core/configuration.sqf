@@ -164,7 +164,8 @@ life_inv_items =
     "life_inv_mauer",
     "life_inv_mauer2",
     "life_inv_objects",
-    "life_inv_kidney"
+    "life_inv_kidney",
+    "life_inv_uwsl"
 ];
 
 //Setup variable inv vars.
@@ -252,6 +253,7 @@ sell_array =
     ["mauer",0],
     ["mauer2",0],
     ["objects",450],
+    ["uwsl",5000],
     ["kidney",50000] //Oubliez pas les Virgules si c'est le dernier
 ];
 __CONST__(sell_array,sell_array);
@@ -287,6 +289,7 @@ buy_array =
 	["storagebig",150000],
     ["mauer",10],
     ["mauer2",20],
+    ["uwsl",10000],
     ["kidney",75000] //Oubliez pas les Virgules si c'est le dernier
 ];
 __CONST__(buy_array,buy_array);

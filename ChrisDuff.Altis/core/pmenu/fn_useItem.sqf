@@ -116,6 +116,21 @@ switch (true) do
         	playSound "Weed";
     	};
 	};
+	case (_item == "uwsl"): {
+		if (("Land_Wreck_Traw_F" == typeOf cursorTarget) OR ("Land_Wreck_Traw2_F" == typeOf cursorTarget)&&([false,_item,1] call life_fnc_handleInv)) then {
+			_ship = cursorTarget getVariable "opened";
+			_ship_obj = cursorTarget;
+			if (_ship) then {hint "Das Schiff wurde bereits geoeffnet!"};
+			if (!_ship) then {
+				hint "Sprengladung angebracht, entferne dich schnell vom Schiffswrack!";
+				playSound3D ["A3\Sounds_F\sfx\alarm_independent.wss", _ship_obj];
+				sleep 10;
+				"M_NLAW_AT_F" createVehicle [getPos _ship_obj select 0, getPos _ship_obj select 1, 0];
+				schiffwoffen = true;
+				publicVariableServer "schiffwoffen";
+			};
+		};
+	};
 	case (_item == "kidney"):
 	{
 		if(([false,_item,1] call life_fnc_handleInv)) then
