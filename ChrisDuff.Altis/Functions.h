@@ -445,4 +445,12 @@ class Life_Client_Core
 		class gangDeposit {};
 		class InsureCar{};
 	};
+	class Peinture
+	{
+		file = "core\repaint";
+		
+		class RepaintMenu {};
+		class Repaintcolor {}; 
+		class RepaintVehicle {}; 		
+	};
 };
