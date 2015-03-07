@@ -21,6 +21,7 @@ switch (_filter) do
 	{
 		_ret pushBack ["civ_tenue_Gendarme","Uniforme de gendarme",0];
 		_ret pushBack ["U_O_Wetsuit","Tenue de plongée",0];
+		_ret pushBack ["civ_tenue_BiereDuff",nil,0];
 		// Pilote
 		if(license_cop_air) then
 		{
@@ -28,6 +29,11 @@ switch (_filter) do
 			_ret pushBack ["U_I_pilotCoveralls",nil,0];
 			_ret pushBack ["U_B_HeliPilotCoveralls",nil,0];
 			_ret pushBack ["U_I_HeliPilotCoveralls",nil,0];
+		};
+		if(__GETC__(life_coplevel) >= 2) then
+		{
+			_ret pushBack ["rpima_uniform",nil,0];
+			_ret pushBack ["U_Marshal"nil,0];
 		};
 		// Tenue Civils
 		if(__GETC__(life_coplevel) >= 4) then
@@ -38,6 +44,8 @@ switch (_filter) do
 			_ret pushBack ["U_BG_Guerilla3_1",nil,0];
 			_ret pushBack ["U_BG_Guerilla3_2",nil,0];
 			_ret pushBack ["U_B_survival_uniform",nil,0];
+			_ret pushBack ["gign_uniform",nil,0];
+			_ret pushBack ["U_I_GhillieSuit",nil,0];
 		};
 	};
 	
@@ -122,12 +130,11 @@ switch (_filter) do
 		};
 		if(__GETC__(life_coplevel) >= 3) then
 		{
-			_ret pushBack ["gign_BlackVest",nil,2500];
 			_ret pushBack ["V_TacVestIR_blk",nil,2000];
 		};
 		if(__GETC__(life_coplevel) >= 4) then
 		{
-			_ret pushBack ["gign_HeavyVest",nil,2500];
+			_ret pushBack ["V_PlateCarrierGL_rgr",nil,2500];
 		};
 		if(__GETC__(life_coplevel) >= 5) then
 		{

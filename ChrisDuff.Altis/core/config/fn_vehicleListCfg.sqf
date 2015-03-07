@@ -81,12 +81,12 @@ switch (_shop) do
 			["B_Quadbike_01_F",2500],
 			["B_G_Offroad_01_F",15000],
 			["B_Heli_Light_01_F",325000]
+			["O_MRAP_02_F",250000];
 		];
 
 		if(license_civ_donateurvehicules) then
 		{
-			_return pushBack ["O_MRAP_02_F",200000];
-			_return pushBack ["O_MRAP_02_hmg_F",1200000];
+			_return pushBack ["B_G_Offroad_01_armed_F",200000];
 		};
 		
 		if(license_civ_rebel) then
@@ -138,6 +138,7 @@ switch (_shop) do
 		if(license_civ_donateurvehicules) then
 		{
 			_return pushBack ["I_Heli_Transport_02_F",1200000];
+			_return pushBack ["O_Heli_Transport_04_F",1200000];
 		};
 	};
 	
@@ -181,6 +182,10 @@ switch (_shop) do
 		{
 			_return pushBack
 			["I_Heli_light_03_unarmed_F",250000];
+		};
+		if(license_civ_donateurvehicules) then
+		{
+			_return pushBack ["B_Heli_Transport_03_unarmed_F",120000];
 		};
 	};
 	
