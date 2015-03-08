@@ -56,11 +56,13 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) >= 3) then
 		{
 			_ret pushBack ["H_Beret_02",nil,0];
+			_ret pushBack ["gign_Balaclava",nil,0];
 		};
 		//Grade Major
 		if(__GETC__(life_coplevel) >= 4) then
 		{
 			_ret pushBack ["H_Beret_Colonel",nil,0];
+			_ret pushBack ["gign_helm4",nil,0];
 		};
 		//Grade Lieutenant
 		if(__GETC__(life_coplevel) >= 5) then
