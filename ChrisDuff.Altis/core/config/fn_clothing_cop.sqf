@@ -129,7 +129,7 @@ switch (_filter) do
 		};
 		if(__GETC__(life_coplevel) >= 4) then
 		{
-			_ret pushBack ["gign_HeavyVest",nil,2500];
+			_ret pushBack ["V_PlateCarrierGL_rgr",nil,3500];
 		};
 		if(__GETC__(life_coplevel) >= 5) then
 		{
