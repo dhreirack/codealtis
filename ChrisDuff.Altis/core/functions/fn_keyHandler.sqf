@@ -431,15 +431,6 @@ switch (_code) do
 							player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
 						};
 				};
-				case 76: // ce chiffre peut être changé pour changer de touche in-game, dans ce cas c'est Shift+num2
-				{
-					if(_shift) then {_handled = true;};
-					if ((_shift) && (vehicle player == player)) then
-					{
-					cutText [format["Hey salut !"], "PLAIN DOWN"]; 
-					player playMove "Acts_PercMstpSlowWrflDnon_handup1b"; 
-					};
-				};
 				case 71:
 				{
 					
