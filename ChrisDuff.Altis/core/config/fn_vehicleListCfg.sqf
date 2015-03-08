@@ -48,7 +48,7 @@ switch (_shop) do
 		];
 
 		//Véhicules Donateur
-		if(license_civ_donateurvehicules) then
+		if(__GETC__(life_donator) > 0) then
 		{
 			_return pushBack ["C_Hatchback_01_sport_F",20000]; //Hayon Sport
 			_return pushBack ["C_Van_01_fuel_F",45000]; //Camionnette Essence
@@ -66,7 +66,7 @@ switch (_shop) do
 			["O_Truck_03_transport_F",200000],
 			["O_Truck_03_covered_F",250000]
 		];
-		if(license_civ_donateurvehicules) then
+		if(__GETC__(life_donator) > 0) then
 		{
 			_return pushBack ["O_Truck_03_device_F",450000];
 			_return pushBack ["B_Truck_01_box_F",350000];
@@ -81,12 +81,12 @@ switch (_shop) do
 			["B_Quadbike_01_F",2500],
 			["B_G_Offroad_01_F",15000],
 			["B_Heli_Light_01_F",325000]
-			["O_MRAP_02_F",250000];
 		];
 
-		if(license_civ_donateurvehicules) then
+		if(__GETC__(life_donator) > 0) then
 		{
-			_return pushBack ["B_G_Offroad_01_armed_F",200000];
+			_return pushBack ["O_MRAP_02_F",200000];
+			_return pushBack ["O_MRAP_02_hmg_F",1200000];
 		};
 		
 		if(license_civ_rebel) then
@@ -125,7 +125,6 @@ switch (_shop) do
 			_return pushBack
 			["B_MRAP_01_hmg_F",100000];
 		};
-		
 	};
 	
 	case "civ_air":
@@ -135,10 +134,9 @@ switch (_shop) do
 			["B_Heli_Light_01_F",253000],
 			["O_Heli_Light_02_unarmed_F",750000]
 		];
-		if(license_civ_donateurvehicules) then
+		if(__GETC__(life_donator) > 0) then
 		{
 			_return pushBack ["I_Heli_Transport_02_F",1200000];
-			_return pushBack ["O_Heli_Transport_04_F",1200000];
 		};
 	};
 	
@@ -148,11 +146,6 @@ switch (_shop) do
 		{
 			_return pushBack
 			["B_Heli_Light_01_F",75000];
-		};
-		if(__GETC__(life_coplevel) >= 4) then
-		{
-			_return pushBack
-			["O_Heli_Light_02_v2_F",135000];
 		};
 		if(__GETC__(life_coplevel) >= 4) then
 		{
@@ -182,10 +175,6 @@ switch (_shop) do
 		{
 			_return pushBack
 			["I_Heli_light_03_unarmed_F",250000];
-		};
-		if(license_cop_donateurcopvehicules) then
-		{
-			_return pushBack ["B_Heli_Transport_03_unarmed_F",120000];
 		};
 	};
 	
