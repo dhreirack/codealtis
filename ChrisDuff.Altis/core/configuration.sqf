@@ -360,7 +360,7 @@ life_garage_sell =
 	["B_Boat_Armed_01_minigun_F",21000],
 	["B_SDV_01_F",45000],
 	["B_MRAP_01_hmg_F",8],
-	["B_MRAP_01_F",800000]
+	["B_MRAP_01_F",350000]
 ];
 __CONST__(life_garage_sell,life_garage_sell);
 
