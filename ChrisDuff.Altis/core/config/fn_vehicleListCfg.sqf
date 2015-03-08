@@ -183,7 +183,7 @@ switch (_shop) do
 			_return pushBack
 			["I_Heli_light_03_unarmed_F",250000];
 		};
-		if(license_civ_donateurvehicules) then
+		if(license_cop_donateurcopvehicules) then
 		{
 			_return pushBack ["B_Heli_Transport_03_unarmed_F",120000];
 		};

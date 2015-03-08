@@ -30,11 +30,6 @@ switch (_filter) do
 			_ret pushBack ["U_B_HeliPilotCoveralls",nil,0];
 			_ret pushBack ["U_I_HeliPilotCoveralls",nil,0];
 		};
-		if(__GETC__(life_coplevel) >= 2) then
-		{
-			_ret pushBack ["rpima_uniform",nil,0];
-			_ret pushBack ["U_Marshal"nil,0];
-		};
 		// Tenue Civils
 		if(__GETC__(life_coplevel) >= 4) then
 		{
@@ -44,6 +39,8 @@ switch (_filter) do
 			_ret pushBack ["U_BG_Guerilla3_1",nil,0];
 			_ret pushBack ["U_BG_Guerilla3_2",nil,0];
 			_ret pushBack ["U_B_survival_uniform",nil,0];
+			_ret pushBack ["rpima_uniform",nil,0];
+			_ret pushBack ["U_Marshal"nil,0];
 			_ret pushBack ["gign_uniform",nil,0];
 			_ret pushBack ["U_I_GhillieSuit",nil,0];
 		};

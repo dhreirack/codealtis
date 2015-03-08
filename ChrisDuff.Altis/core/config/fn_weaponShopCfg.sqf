@@ -765,7 +765,6 @@ switch(_shop) do
             ["hgun_PDW2000_F",nil,25000],
             ["30Rnd_9x21_Mag",nil,75],
             ["hgun_mas_uzi_F",nil,25000],
-            ["9Rnd_45ACP_Mag",nil,45],
             ["optic_Yorris",nil,45]
           ]
         ];
