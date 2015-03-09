@@ -67,7 +67,7 @@ switch (_var) do
     case "life_inv_mauer": {"Plot"};
     case "life_inv_mauer2": {"Barrière"};
     case "life_inv_objects": {"Objets Volés"};
-    case "life_inv_Organe": {"Organe"}; 
+    case "life_inv_kidney": {"Organe"}; 
 	
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};
