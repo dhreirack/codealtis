@@ -71,7 +71,7 @@ switch (_mode) do
             case "mauer": {"life_inv_mauer"};
             case "mauer2": {"life_inv_mauer2"};
             case "objects": {"life_inv_objects"};
-            case "kidney": {"life_inv_kidney"}; 
+            case "Organe": {"life_inv_Organe"}; 
 		};
 	};
 	

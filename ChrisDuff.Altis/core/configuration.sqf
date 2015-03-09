@@ -254,7 +254,7 @@ sell_array =
     ["mauer2",0],
     ["objects",450],
     ["uwsl",5000],
-    ["kidney",50000] //Oubliez pas les Virgules si c'est le dernier
+    ["Organe",50000] //Oubliez pas les Virgules si c'est le dernier
 ];
 __CONST__(sell_array,sell_array);
 
