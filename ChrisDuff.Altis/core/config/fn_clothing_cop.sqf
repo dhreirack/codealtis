@@ -21,6 +21,7 @@ switch (_filter) do
 	{
 		_ret pushBack ["civ_tenue_Gendarme","Uniforme de gendarme",0];
 		_ret pushBack ["U_O_Wetsuit","Tenue de plongée",0];
+		_ret pushBack ["civ_tenue_BiereDuff",nil,0];
 		// Pilote
 		if(license_cop_air) then
 		{
@@ -38,6 +39,9 @@ switch (_filter) do
 			_ret pushBack ["U_BG_Guerilla3_1",nil,0];
 			_ret pushBack ["U_BG_Guerilla3_2",nil,0];
 			_ret pushBack ["U_B_survival_uniform",nil,0];
+			_ret pushBack ["rpima_uniform",nil,0];
+			_ret pushBack ["gign_uniform",nil,0];
+			_ret pushBack ["U_I_GhillieSuit",nil,0];
 		};
 	};
 	
