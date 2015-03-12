@@ -463,6 +463,6 @@ life_assur_prices =
 	["cl3_veyron_blk_wht",55500], // bugatti veyron
 	["cl3_carrera_gt_black",42000], // porsche carrera gt
 	["B_SDV_01_F",10000],
-	["ford_mondeo_gen",10000]
+	["ford_mondeo_gend",10000]
 ];
 __CONST__(life_assur_prices,life_assur_prices);
