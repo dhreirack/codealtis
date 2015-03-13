@@ -22,7 +22,7 @@ switch (_var) do
 	case "life_inv_cannabis": {(localize "STR_Item_Cannabis")};
 	case "life_inv_marijuana": {(localize "STR_Item_Marijuana")};
 	case "life_inv_apple": {(localize "STR_Item_Apple")};
-	case "life_inv_uwsl": {"Unterwassersprengladung"}; //RENAME IT TO ANYTHING YOU LIKE
+	case "life_inv_uwsl": {"Charge explosive sous-marine"}; //RENAME IT TO ANYTHING YOU LIKE
 	case "life_inv_rabbit": {(localize "STR_Item_RabbitMeat")};
 	case "life_inv_salema": {(localize "STR_Item_SalemaMeat")};
 	case "life_inv_ornate": {(localize "STR_Item_OrnateMeat")};
