@@ -329,7 +329,27 @@ life_garage_prices =
 	["B_Boat_Armed_01_minigun_F",16500],
 	["B_SDV_01_F",25000],
 	["B_MRAP_01_hmg_F",100000],
-	["B_MRAP_01_F",35000]
+	["B_MRAP_01_F",35000],
+	["cl3_polo_gti_black",2200], //polo gti
+	["cl3_golf_mk2_black",2400], // golf mk2
+	["cl3_range_rover_black",2900], // range rover
+	["cl3_q7_black",3500], // audi q7
+	["cl3_suv_black",4500], // suv arma 2 
+	["cl3_transit_black",3800], // ford transit
+	["cl3_dodge_charger_f_black",7900], // doge charger
+	["cl3_z4_2008_black",8500], // bmw z4
+	["cl3_dbs_volante_black",3640], // aston martin dbs volante
+	["cl3_458_black",2900], // ferrari 458
+	["cl3_aventador_lp7004_black",5000], // lamborghini avantador
+	["cl3_lamborghini_gt1_black",5070], // lamborghini gt1
+	["cl3_murcielago_black",4150], // lamborghini mucielago
+	["cl3_reventon_black",6950],// lamborghini reventon
+	["cl3_r8_spyder_black",7250], // audi r8
+	["cl3_veyron_blk_wht",5550], // bugatti veyron
+	["cl3_carrera_gt_black",4200], // porsche carrera gt
+	["ford_mondeo_gend",3000],
+    ["ebike_epoch",10000],
+    ["cl3_xr_1000_black",30000]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
@@ -360,7 +380,27 @@ life_garage_sell =
 	["B_Boat_Armed_01_minigun_F",21000],
 	["B_SDV_01_F",45000],
 	["B_MRAP_01_hmg_F",8],
-	["B_MRAP_01_F",350000]
+	["cl3_polo_gti_black",12000], //polo gti
+	["cl3_golf_mk2_black",14000], // golf mk2
+	["cl3_range_rover_black",19000], // range rover
+	["cl3_q7_black",25000], // audi q7
+	["cl3_suv_black",25000], // suv arma 2 
+	["cl3_transit_black",28000], // ford transit
+	["cl3_dodge_charger_f_black",39000], // doge charger
+	["cl3_z4_2008_black",45000], // bmw z4
+	["cl3_dbs_volante_black",26400], // aston martin dbs volante
+	["cl3_458_black",190000], // ferrari 458
+	["cl3_aventador_lp7004_black",50000], // lamborghini avantador
+	["cl3_lamborghini_gt1_black",50700], // lamborghini gt1
+	["cl3_murcielago_black",41500], // lamborghini mucielago
+	["cl3_reventon_black",69500],// lamborghini reventon
+	["cl3_r8_spyder_black",72500], // audi r8
+	["cl3_veyron_blk_wht",55500], // bugatti veyron
+	["cl3_carrera_gt_black",42000], // porsche carrera gt
+	["B_MRAP_01_F",95000],
+	["ford_mondeo_gend",20000],
+	["ebike_epoch",30000],
+    ["cl3_xr_1000_black",90000]
 ];
 __CONST__(life_garage_sell,life_garage_sell);
 
@@ -409,6 +449,26 @@ life_assur_prices =
 	["B_Boat_Transport_01_F",10000],
 	["C_Boat_Civil_01_police_F",10000],
 	["B_Boat_Armed_01_minigun_F",10000],
-	["B_SDV_01_F",10000]
+	["cl3_polo_gti_black",12000], //polo gti
+	["cl3_golf_mk2_black",14000], // golf mk2
+	["cl3_range_rover_black",19000], // range rover
+	["cl3_q7_black",25000], // audi q7
+	["cl3_suv_black",25000], // suv arma 2 
+	["cl3_transit_black",28000], // ford transit
+	["cl3_dodge_charger_f_black",39000], // doge charger
+	["cl3_z4_2008_black",45000], // bmw z4
+	["cl3_dbs_volante_black",26400], // aston martin dbs volante
+	["cl3_458_black",190000], // ferrari 458
+	["cl3_aventador_lp7004_black",50000], // lamborghini avantador
+	["cl3_lamborghini_gt1_black",50700], // lamborghini gt1
+	["cl3_murcielago_black",41500], // lamborghini mucielago
+	["cl3_reventon_black",69500],// lamborghini reventon
+	["cl3_r8_spyder_black",72500], // audi r8
+	["cl3_veyron_blk_wht",55500], // bugatti veyron
+	["cl3_carrera_gt_black",42000], // porsche carrera gt
+	["B_SDV_01_F",10000],
+	["ford_mondeo_gend",10000],
+	["ebike_epoch",30000],
+    ["cl3_xr_1000_black",90000]
 ];
 __CONST__(life_assur_prices,life_assur_prices);

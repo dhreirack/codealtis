@@ -35,6 +35,18 @@ switch (_shop) do
 			["O_Heli_Light_02_unarmed_F",75000]
 		];
 	};
+
+	case "civ_moto": {
+		_return = 
+		[
+			["ebike_epoch",50000]
+		];
+
+		if(license_civ_donateurvehicules) then
+        {
+			_return pushBack ["cl3_xr_1000_black",200000];
+		};
+	};
 	
 	case "civ_car":
 	{
@@ -43,15 +55,31 @@ switch (_shop) do
 			["B_Quadbike_01_F",2500],
 			["C_Hatchback_01_F",9500],
 			["C_Offroad_01_F",12500],
-			["C_SUV_01_F",35000],
-			["C_Van_01_transport_F",40000]
+			["cl3_polo_gti_black",22000], //polo gti
+			["cl3_golf_mk2_black",24000], // golf mk2
+			["cl3_range_rover_black",29000], // range rover
+			["cl3_q7_black",35000], // audi q7
+			["cl3_suv_black",45000], // suv arma 2 
+			["cl3_transit_black",38000], // ford transit
+			["C_Van_01_transport_F",45000], //camionette base
+			["cl3_dodge_charger_f_black",79000], // doge charger
+			["cl3_z4_2008_black",85000], // bmw z4
+			["cl3_dbs_volante_black",264000], // aston martin dbs volante
+			["cl3_carrera_gt_black",420000] // porsche carrera gt
+
 		];
 
 		//Véhicules Donateur
-		if(__GETC__(life_donator) > 0) then
+		if(license_civ_donateurvehicules) then
 		{
-			_return pushBack ["C_Hatchback_01_sport_F",20000]; //Hayon Sport
-			_return pushBack ["C_Van_01_fuel_F",45000]; //Camionnette Essence
+			_return pushBack ["cl3_458_black",290000]; // ferrari 458
+			_return pushBack ["cl3_aventador_lp7004_black",200000]; // lamborghini avantador
+			_return pushBack ["cl3_lamborghini_gt1_black",207000]; // lamborghini gt1
+			_return pushBack ["cl3_murcielago_black",215000]; // lamborghini mucielago
+			_return pushBack ["cl3_reventon_black",195000]; // lamborghini reventon
+			_return pushBack ["cl3_r8_spyder_black",225000]; // audi r8
+			_return pushBack ["cl3_veyron_blk_wht",355000]; // bugatti veyron
+			_return pushBack ["cl3_carrera_gt_black",220000]; // porsche carrera gt
 		};
 	};
 	
@@ -112,8 +140,8 @@ switch (_shop) do
 		};
 		if(__GETC__(life_coplevel) >= 3) then
 		{
-			_return pushBack
-			["C_Hatchback_01_sport_F",30000];
+			_return pushBack ["C_Hatchback_01_sport_F",25000];
+			_return pushBack ["ford_mondeo_gen",38000]; // ford mondeo gendarmerie
 		};
 		if(__GETC__(life_coplevel) >= 4) then
 		{
