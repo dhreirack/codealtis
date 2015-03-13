@@ -28,9 +28,9 @@ switch (_mode) do
 			case "heroin": {_var = "license_civ_heroin"}; //Heroin processing license cost
 			case "marijuana": {_var = "license_civ_marijuana"}; //Marijuana processing license cost
 			case "medmarijuana": {_var = "license_civ_medmarijuana"}; //Medical Marijuana processing license cost
-			case "gang": {_var = "license_civ_gang"}; //Gang license cost
-			case "rebel": {_var = "license_civ_rebel"}; //Rebel License
-			case "truck":{_var = "license_civ_truck"}; //Truck License
+			case "gang": {_var = "license_civ_gang"}; //Liscense de gang
+			case "rebel": {_var = "license_civ_rebel"}; //Liscense Rebelle
+			case "truck":{_var = "license_civ_truck"}; //License de Camions
 			case "diamond": {_var = "license_civ_diamond"};
 			case "salt": {_var = "license_civ_salt"};
 			case "cocaine": {_var = "license_civ_coke"};
