@@ -129,7 +129,7 @@ switch (_shop) do
 		if(__GETC__(life_coplevel) >= 3) then
 		{
 			_return pushBack ["C_Hatchback_01_sport_F",25000];
-			_return pushBack ["ford_mondeo_gen",38000]; // ford mondeo gendarmerie
+			_return pushBack ["ford_mondeo_gend",38000]; // ford mondeo gendarmerie
 		};
 		if(__GETC__(life_coplevel) >= 4) then
 		{
