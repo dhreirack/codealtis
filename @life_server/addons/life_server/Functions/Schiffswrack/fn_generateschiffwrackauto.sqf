@@ -12,7 +12,7 @@ schiffsw_obj_arr = ["Land_Wreck_Traw_F","Land_Wreck_Traw2_F"];
 
 schiffsw_chance = 100;
 schiffsw_positions = [[4462.89,6515.78,-2.19486],[5391.75,25136.2,-1.98308],[25323.2,27886.6,-2.15125]];
-_schiffsw_time_interval = [1,2]; //Time given in hours, this is the interval in which the shipwreck should take spawn
+_schiffsw_time_interval = [1,5]; //Time given in hours, this is the interval in which the shipwreck should take spawn
 schiffsw_loot_array = [["goldbar",15],["cocaine",30],["turtle",30],["diamond",75],["apple",39],["peach",43],["kidney",4],["marijuana",50]];
 schiffsw_loot_amount = 2;
 
