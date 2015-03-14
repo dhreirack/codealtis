@@ -35,6 +35,18 @@ switch (_shop) do
 			["O_Heli_Light_02_unarmed_F",75000]
 		];
 	};
+
+	case "civ_moto": {
+		_return = 
+		[
+			["ebike_epoch",50000]
+		];
+
+		if(license_civ_donateurvehicules) then
+        {
+			_return pushBack ["cl3_xr_1000_black",200000];
+		};
+	};
 	
 	case "civ_car":
 	{
