@@ -347,7 +347,9 @@ life_garage_prices =
 	["cl3_r8_spyder_black",7250], // audi r8
 	["cl3_veyron_blk_wht",5550], // bugatti veyron
 	["cl3_carrera_gt_black",4200], // porsche carrera gt
-	["ford_mondeo_gen",3000]
+	["ford_mondeo_gend",3000],
+    ["ebike_epoch",10000],
+    ["cl3_xr_1000_black",30000]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
@@ -396,7 +398,9 @@ life_garage_sell =
 	["cl3_veyron_blk_wht",55500], // bugatti veyron
 	["cl3_carrera_gt_black",42000], // porsche carrera gt
 	["B_MRAP_01_F",95000],
-	["ford_mondeo_gen",20000]
+	["ford_mondeo_gend",20000],
+	["ebike_epoch",30000],
+    ["cl3_xr_1000_black",90000]
 ];
 __CONST__(life_garage_sell,life_garage_sell);
 
@@ -463,6 +467,8 @@ life_assur_prices =
 	["cl3_veyron_blk_wht",55500], // bugatti veyron
 	["cl3_carrera_gt_black",42000], // porsche carrera gt
 	["B_SDV_01_F",10000],
-	["ford_mondeo_gend",10000]
+	["ford_mondeo_gend",10000],
+	["ebike_epoch",30000],
+    ["cl3_xr_1000_black",90000]
 ];
 __CONST__(life_assur_prices,life_assur_prices);
