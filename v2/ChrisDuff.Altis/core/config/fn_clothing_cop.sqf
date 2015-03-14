@@ -147,6 +147,7 @@ switch (_filter) do
 		_ret pushBack ["B_Kitbag_mcamo",nil,0];
 		_ret pushBack ["B_TacticalPack_blk",nil,0];
 		_ret pushBack ["B_TacticalPack_rgr",nil,0];
+		_ret pushBack ["cl3_police_tacticalbelt",nil,0];
 		// Grade Brigadier
 		if(__GETC__(life_coplevel) >= 2) then
 		{
