@@ -14,7 +14,7 @@ schiffsw_chance = 100;
 schiffsw_positions = [[4462.89,6515.78,-2.19486],[5391.75,25136.2,-1.98308],[25323.2,27886.6,-2.15125]];
 _schiffsw_time_interval = [1,5]; //Time given in hours, this is the interval in which the shipwreck should take spawn
 schiffsw_loot_array = [["goldbar",15],["cocaine",30],["turtle",30],["diamond",75],["apple",39],["peach",43],["kidney",4],["marijuana",50]];
-schiffsw_loot_amount = 2;
+schiffsw_loot_amount = 1;
 
 //######################## CONFIGURATION END ########################
 
@@ -38,7 +38,7 @@ _toWait = (random (schiffsw_time_max - schiffsw_time_min)) + schiffsw_time_min;
 sleep _toWait;
 
 // schiffsw STARTEN
-[[5,"<br/><t align='center'><t size='6'><img image='textures\schiffswheader.paa'/></t></t><br/><br/><t size='1.4'><t color='#A5DF00'>SCHIFFSWRACK</t></t><br/><br/><t size='1'>Un navire échoué au large de la côte Altis!</t>"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+[[5,"<t size='1.4'><t color='#A5DF00'>SCHIFFSWRACK</t></t><br/><br/><t size='1'>A sunken ship has been located! It may contain important items, it has been marked on your map!</t>"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 _poses = count schiffsw_positions;
 _inArr = floor(random _poses);
 _dest = schiffsw_positions select _inArr;
@@ -52,7 +52,7 @@ _marker = createMarker ["schiffswmarker", _dest];
 "schiffswmarker" setMarkerSize [500,500];
 _markerText = createMarker ["schiffswmarkertext", _dest];
 "schiffswmarkertext" setMarkerColor "ColorBlack";
-"schiffswmarkertext" setMarkerText "Epave de bateau";
+"schiffswmarkertext" setMarkerText "Schiffswrack";
 "schiffswmarkertext" setMarkerType "mil_warning";
 
 "schiffswmarker" setMarkerAlpha 0.3;
@@ -103,4 +103,4 @@ deleteMarker "schiffswmarker";
 deleteMarker "schiffswmarkertext";
 deleteVehicle _dasWrack;
 
-[[5,"<br/><t align='center'><t size='6'><img image='textures\schiffswheader.paa'/></t></t><br/><br/><t size='1.4'><t color='#A5DF00'>SCHIFFSWRACK</t></t><br/><br/><t size='1'>Das Schiffswrack wurde geborgen und die Mission somit beendet!</t>"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+[[5,"<t size='1.4'><t color='#A5DF00'>SCHIFFSWRACK</t></t><br/><br/><t size='1'>The ship has been successfully looted and has despawned!</t>"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
