@@ -38,7 +38,7 @@ _toWait = (random (schiffsw_time_max - schiffsw_time_min)) + schiffsw_time_min;
 sleep _toWait;
 
 // schiffsw STARTEN
-[[5,"<br/><t align='center'><t size='6'><img image='textures\schiffswheader.paa'/></t></t><br/><br/><t size='1.4'><t color='#A5DF00'>SCHIFFSWRACK</t></t><br/><br/><t size='1'>Ein Schiff ist vor der Kueste Altis gestrandet! Die Suchradius ist auf deiner Karte eingezeichnet worden! Das Wrack wird in 60 Minuten selbststaendig geloescht! Viel Gluekc!</t>"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+[[5,"<br/><t align='center'><t size='6'><img image='textures\schiffswheader.paa'/></t></t><br/><br/><t size='1.4'><t color='#A5DF00'>SCHIFFSWRACK</t></t><br/><br/><t size='1'>Un navire échoué au large de la côte Altis!</t>"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 _poses = count schiffsw_positions;
 _inArr = floor(random _poses);
 _dest = schiffsw_positions select _inArr;
