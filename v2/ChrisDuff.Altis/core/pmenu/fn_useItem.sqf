@@ -123,7 +123,7 @@ switch (true) do
                         if (!([false,_item,1] call life_fnc_handleInv)) exitWith {hint "Error: Object not found";};
 			_ship = cursorTarget getVariable "opened";
 			_ship_obj = cursorTarget;
-			if (_ship) then {hint "Le navire a été ouvert!"};
+			if (_ship) then {hint "Das Schiff wurde bereits geoeffnet!"};
 			if (!_ship) then {
 				hint "The charge has been planted! Get away from the shipwreck!";
 				playSound3D ["A3\Sounds_F\sfx\alarm_independent.wss", _ship_obj];
