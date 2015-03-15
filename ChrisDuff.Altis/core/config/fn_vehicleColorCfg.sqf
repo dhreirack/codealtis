@@ -202,6 +202,271 @@ switch (_vehicle) do
 			["\FLOLAX_textures\vehicules\cop\heli_02.paa","cop"]
 		];
 	};
+
+	case "cl3_polo_gti_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
+
+	case "cl3_golf_mk2_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
+
+	case "cl3_range_rover_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
+
+	case "cl3_q7_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
+
+	case "cl3_transit_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"]
+		];
+	};
+
+	case "cl3_dodge_charger_f_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
+
+	case "cl3_z4_2008_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
+
+	case "cl3_dbs_volante_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
+
+	case "cl3_carrera_gt_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
+
+	case "cl3_458_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
+
+	case "cl3_aventador_lp7004_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
+
+	case "cl3_lamborghini_gt1_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
+
+	case "cl3_murcielago_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
+
+	case "cl3_reventon_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
+
+	case "cl3_r8_spyder_black":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
+
+	case "cl3_veyron_blk_wht":
+	{
+		_ret = 
+		[
+			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
+			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
+		];
+	};
 	
 	case "O_Heli_Attack_02_black_F":
 	{

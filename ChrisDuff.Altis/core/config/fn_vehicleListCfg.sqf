@@ -39,7 +39,8 @@ switch (_shop) do
 	case "civ_moto": {
 		_return = 
 		[
-			["ebike_epoch",50000]
+			["ebike_epoch",50000],
+			["cl3_bike_Roadskin_black",1000]
 		];
 
 		if(license_civ_donateurvehicules) then
@@ -141,7 +142,7 @@ switch (_shop) do
 		if(__GETC__(life_coplevel) >= 3) then
 		{
 			_return pushBack ["C_Hatchback_01_sport_F",25000];
-			_return pushBack ["ford_mondeo_gen",38000]; // ford mondeo gendarmerie
+			_return pushBack ["ford_mondeo_gend",38000]; // ford mondeo gendarmerie
 		};
 		if(__GETC__(life_coplevel) >= 4) then
 		{

@@ -655,6 +655,8 @@ switch(_shop) do
         ["Equipements Médecin",
           [
             ["civ_tenue_Samu",nil,0],
+            ["cl3_police_vest_pm",nil,0],
+            ["cl3_emt_tacticalbelt_black",nil,0],
             ["ItemGPS",nil,100],
             ["ItemRadio","Téléphone",100],
             ["Binocular",nil,150],
@@ -755,6 +757,7 @@ switch(_shop) do
       {
         ["Armurerie",
           [
+            ["Voxid_Pancarte","Pancarte",500],
             ["hgun_Rook40_F",nil,6500],
             ["hgun_Pistol_heavy_02_F",nil,9850],
             ["hgun_ACPC2_F",nil,11500],
@@ -763,6 +766,8 @@ switch(_shop) do
             ["16Rnd_9x21_Mag",nil,25],
             ["9Rnd_45ACP_Mag",nil,45],
             ["6Rnd_45ACP_Cylinder",nil,50],
+            ["arifle_SDAR_F",nil,22050],
+            ["20Rnd_556x45_UW_mag",nil,550],
             ["NVGoggles",nil,1200]
           ]
         ];
@@ -836,9 +841,11 @@ switch(_shop) do
             ["LMG_mas_mk48_F_d",nil,230000],
             ["100Rnd_mas_762x51_T_Stanag",nil,1250],
 
-            
-            ["R3F_PAMAS",nil,10000],
+            ["R3F_PAMAS",nil,50000],
             ["R3F_15Rnd_9x19_PAMAS",nil,1250]
+
+            
+            
           ]
         ];
       };
@@ -894,7 +901,7 @@ switch(_shop) do
       };
       case (__GETC__(life_coplevel) == 3):
         {
-            ["Armurerie Doonateur Adjudant",
+            ["Armurerie Donateur Adjudant",
             [
             ["optic_mas_Aco_camo","ACO Rouge CAMO",0],
             ["optic_mas_ACO_grn_camo","ACO Vert CAMO",0],
@@ -903,10 +910,14 @@ switch(_shop) do
             ["R3F_J4_DES",nil,750],
             ["optic_mas_acog_eo",nil,850],
             ["optic_mas_Arco_blk",nil,850],
+            ["optic_mas_acog_eo",nil,850],
+            ["optic_mas_acog_eo",nil,850],
             ["optic_mas_DMS_c",nil,950],
             ["optic_NVS",nil,2500],
             ["optic_mas_zeiss_eo_c",nil,950],
 
+            ["R3F_PAMAS",nil,10000],
+            ["R3F_15Rnd_9x19_PAMAS",nil,1250],
             ["arifle_mas_mp5_d","Mp5",0],
             ["arifle_mas_mp5sd","Mp5 SD",0],
             ["30Rnd_mas_9x21_Stanag",nil,0],
@@ -949,11 +960,15 @@ switch(_shop) do
             ["R3F_J4_DES",nil,750],
             ["optic_mas_acog_eo",nil,850],
             ["optic_mas_Arco_blk",nil,850],
+            ["optic_mas_acog_eo",nil,850],
+            ["optic_mas_acog_eo",nil,850],
             ["optic_mas_DMS_c",nil,950],
             ["optic_NVS",nil,2500],
             ["optic_mas_zeiss_eo_c",nil,950],
             ["R3F_ZEISS_DES",nil,1500],
 
+            ["R3F_PAMAS",nil,10000],
+            ["R3F_15Rnd_9x19_PAMAS",nil,1250],
             ["arifle_mas_mp5_d","Mp5",0],
             ["arifle_mas_mp5sd","Mp5 SD",0],
             ["30Rnd_mas_9x21_Stanag",nil,0],
@@ -1009,11 +1024,15 @@ switch(_shop) do
             ["R3F_J4_DES",nil,750],
             ["optic_mas_acog_eo",nil,850],
             ["optic_mas_Arco_blk",nil,850],
+            ["optic_mas_acog_eo",nil,850],
+            ["optic_mas_acog_eo",nil,850],
             ["optic_mas_DMS_c",nil,950],
             ["optic_NVS",nil,2500],
             ["optic_mas_zeiss_eo_c",nil,950],
             ["R3F_ZEISS_DES",nil,1500],
 
+            ["R3F_PAMAS",nil,10000],
+            ["R3F_15Rnd_9x19_PAMAS",nil,1250],
             ["arifle_mas_mp5_d","Mp5",0],
             ["arifle_mas_mp5sd","Mp5 SD",0],
             ["30Rnd_mas_9x21_Stanag",nil,0],
@@ -1080,11 +1099,15 @@ switch(_shop) do
             ["R3F_J4_DES",nil,750],
             ["optic_mas_acog_eo",nil,850],
             ["optic_mas_Arco_blk",nil,850],
+            ["optic_mas_acog_eo",nil,850],
+            ["optic_mas_acog_eo",nil,850],
             ["optic_mas_DMS_c",nil,950],
             ["optic_NVS",nil,2500],
             ["optic_mas_zeiss_eo_c",nil,950],
             ["R3F_ZEISS_DES",nil,1500],
 
+            ["R3F_PAMAS",nil,10000],
+            ["R3F_15Rnd_9x19_PAMAS",nil,1250],
             ["arifle_mas_mp5_d","Mp5",0],
             ["arifle_mas_mp5sd","Mp5 SD",0],
             ["30Rnd_mas_9x21_Stanag",nil,0],
@@ -1157,11 +1180,15 @@ switch(_shop) do
             ["R3F_J4_DES",nil,750],
             ["optic_mas_acog_eo",nil,850],
             ["optic_mas_Arco_blk",nil,850],
+            ["optic_mas_acog_eo",nil,850],
+            ["optic_mas_acog_eo",nil,850],
             ["optic_mas_DMS_c",nil,950],
             ["optic_NVS",nil,2500],
             ["optic_mas_zeiss_eo_c",nil,950],
             ["R3F_ZEISS_DES",nil,1500],
 
+            ["R3F_PAMAS",nil,10000],
+            ["R3F_15Rnd_9x19_PAMAS",nil,1250],
             ["arifle_mas_mp5_d","Mp5",0],
             ["arifle_mas_mp5sd","Mp5 SD",0],
             ["30Rnd_mas_9x21_Stanag",nil,0],
@@ -1239,11 +1266,15 @@ switch(_shop) do
             ["R3F_J4_DES",nil,750],
             ["optic_mas_acog_eo",nil,850],
             ["optic_mas_Arco_blk",nil,850],
+            ["optic_mas_acog_eo",nil,850],
+            ["optic_mas_acog_eo",nil,850],
             ["optic_mas_DMS_c",nil,950],
             ["optic_NVS",nil,2500],
             ["optic_mas_zeiss_eo_c",nil,950],
             ["R3F_ZEISS_DES",nil,1500],
 
+            ["R3F_PAMAS",nil,10000],
+            ["R3F_15Rnd_9x19_PAMAS",nil,1250],
             ["arifle_mas_mp5_d","Mp5",0],
             ["arifle_mas_mp5sd","Mp5 SD",0],
             ["30Rnd_mas_9x21_Stanag",nil,0],
@@ -1324,6 +1355,7 @@ switch(_shop) do
             ["R3F_J4_DES",nil,750],
             ["optic_mas_acog_eo",nil,850],
             ["optic_mas_Arco_blk",nil,850],
+            ["optic_mas_acog_eo",nil,850],
             ["optic_mas_DMS_c",nil,950],
             ["optic_NVS",nil,2500],
             ["optic_mas_zeiss_eo_c",nil,950],
@@ -1331,6 +1363,8 @@ switch(_shop) do
             ["muzzle_mas_snds_M",nil,1500],
             ["muzzle_mas_snds_SM",nil,1500],
 
+            ["R3F_PAMAS",nil,10000],
+            ["R3F_15Rnd_9x19_PAMAS",nil,1250],
             ["arifle_mas_mp5_d","Mp5",0],
             ["arifle_mas_mp5sd","Mp5 SD",0],
             ["30Rnd_mas_9x21_Stanag",nil,0],

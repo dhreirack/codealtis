@@ -50,7 +50,25 @@ switch (_className) do
 	case "Box_IND_Grenades_F": {250};
 	case "B_supplyCrate_F": {200};
 	case "Land_Pod_Heli_Transport_04_box_F": {700};
-	case "Land_Wreck_Traw_F": {100};
-	case "Land_Wreck_Traw2_F": {100};
+	case "Land_Wreck_Traw_F": {10000};
+	case "Land_Wreck_Traw2_F": {10000};
+	case "cl3_polo_gti_black": {65}; //polo gti
+	case "cl3_golf_mk2_black": {65}; // golf mk2
+	case "cl3_range_rover_black": {75}; // range rover
+	case "cl3_q7_black": {60}; // audi q7
+	case "cl3_suv_black": {80}; // suv arma 2 
+	case "cl3_transit_black": {130}; // ford transit
+	case "cl3_dodge_charger_f_black": {40}; // doge charger
+	case "cl3_z4_2008_black": {40}; // bmw z4
+	case "cl3_dbs_volante_black": {35}; // aston martin dbs volante
+	case "cl3_carrera_gt_black": {35}; // porsche carrera gt
+	case "cl3_458_black": {35}; // ferrari 458
+	case "cl3_aventador_lp7004_black": {35}; // lamborghini avantador
+	case "cl3_lamborghini_gt1_black": {35}; // lamborghini gt1
+	case "cl3_murcielago_black": {35}; // lamborghini mucielago
+	case "cl3_reventon_black": {35}; // lamborghini reventon
+	case "cl3_r8_spyder_black": {35}; // audi r8
+	case "cl3_veyron_blk_wht": {40}; // bugatti veyron
+	case "cl3_bike_Roadskin_black": {5}; // bugatti veyron
 	default {-1};
 };

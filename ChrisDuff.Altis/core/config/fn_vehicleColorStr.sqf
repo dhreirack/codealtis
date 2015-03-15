@@ -145,6 +145,290 @@ switch (_vehicle) do
 			case 14: {_color = "SAMU"};
 		};
 	};
+
+
+		case "cl3_polo_gti_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_golf_mk2_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_range_rover_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_q7_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_dodge_charger_f_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_transit_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Blanc"};
+			case 2: {_color = "Noir"};
+
+		};
+	};
+
+	case "cl3_dodge_charger_f_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_z4_2008_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_dbs_volante_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_carrera_gt_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_458_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_aventador_lp7004_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_lamborghini_gt1_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_murcielago_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_reventon_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_r8_spyder_black":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
+
+	case "cl3_veyron_blk_wht":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Gris"};
+			case 1: {_color = "Bordeaux"};
+			case 2: {_color = "Bleu foncé"};
+			case 3: {_color = "Orange"};
+			case 4: {_color = "Rose"};
+			case 5: {_color = "Sable"};
+			case 6: {_color = "Vert"};
+			case 7: {_color = "Blanc"};
+			case 8: {_color = "Noir"};
+			case 9: {_color = "Jaune"};
+		};
+	};
 	
 	case "O_Heli_Light_02_unarmed_F":
 	{
