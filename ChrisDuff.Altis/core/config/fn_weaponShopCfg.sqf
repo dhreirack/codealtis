@@ -1497,4 +1497,23 @@ switch(_shop) do
       ]
     ];
   };
+
+    case "Press":
+  {
+    ["Magasin de Press",
+      [
+        ["Binocular",nil,150],
+        ["ItemRadio","Téléphone",100],
+        ["ItemGPS",nil,100],
+        ["ToolKit",nil,250],
+        ["NVGoggles",nil,1000],
+        ["Voxid_Cam",nil,10000],
+        ["U_C_Journalist",nil,1000],
+        ["V_Press_F",nil,1000],
+        ["H_Cap_press",nil,1000],
+        ["G_Spectacles_Tinted",nil,1000]
+
+      ]
+    ];
+  };
 };
