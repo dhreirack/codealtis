@@ -28,6 +28,14 @@ switch (_shop) do
 			["C_SUV_01_F",15000]
 		];
 	};
+
+		case "press_civ":
+	{
+		_return = [
+
+			["cl3_transitNews",38000]
+		];
+	};
 	
 	case "med_air_hs": {
 		_return = [
@@ -39,7 +47,8 @@ switch (_shop) do
 	case "civ_moto": {
 		_return = 
 		[
-			["ebike_epoch",50000]
+			["ebike_epoch",50000],
+			["cl3_bike_Roadskin_black",1000]
 		];
 
 		if(license_civ_donateurvehicules) then
